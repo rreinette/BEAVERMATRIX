@@ -7,7 +7,7 @@
 
 #### Aspects : 
 * **Tendance** 
-* **Style ** 
+* **Style** 
 * **Pays/ Public/ Cible (Age)** (*Amérique du Nord/Europe*)
 * Langue
 * **Popularité / chanteur -  groupe**
