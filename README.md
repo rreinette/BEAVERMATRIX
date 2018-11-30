@@ -9,12 +9,12 @@
 * **Tendance** 
 * **Style** 
 * **Pays/ Public/ Cible (Age)** (*Amérique du Nord/Europe*)
-* Langue
 * **Popularité / chanteur -  groupe**
 * **Période de l'année**
+* **Musicalité/ Structure  ( BPM ,  Accords ...)**
+* Plateforme (promotion , **stream**)
 * Marketing (Label, Indé...)
-* Plateforme (promotion , **stream**
-* **Musicalité/ Structure  ( BPM ,  Accords ...) **
+* Langue
 
 #### Data
 * Youtube, Spotify
