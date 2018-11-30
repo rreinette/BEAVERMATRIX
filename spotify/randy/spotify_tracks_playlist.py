@@ -11,11 +11,11 @@ def get_tracks_id(uri,sp):
 		track_id_uris.append(song['track']['id'])
 
 
-	print(str(track_id_uris))
+	return track_id_uris
 
 def get_featured_playlists_uris(name, sp):
 	response = sp.featured_playlists()
-	print(response['message'])
+	#print(response['message'])
 	uri = ''
 
 	while response:
@@ -34,8 +34,10 @@ def main():
 	username = '11173741361'
 	token = util.prompt_for_user_token(username,scope="user-read-private", client_id = client_id, client_secret = client_secret, redirect_uri='http://localhost:8080')
 	sp = spotipy.Spotify(auth=token)
-	uri = get_featured_playlists_uris('Today\'s Top Hits',sp)
-	get_tracks_id(uri,sp)
+	uri1 = get_featured_playlists_uris('Today\'s Top Hits',sp)
+	tracks_id = get_tracks_id(uri1,sp)
+	tracks_id_world = get_tracks_id("spotify:user:spotifycharts:playlist:37i9dQZEVXbMDoHDwVN2tF",sp)
+	print(str(tracks_id_world))
 if __name__ == '__main__':
 	main()
 
